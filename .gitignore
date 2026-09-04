@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+.ipynb_checkpoints/
+data/cache/
+cache/
+indexes/
+results/*.csv
+results/*.json
+results/plots/
+work/
+
