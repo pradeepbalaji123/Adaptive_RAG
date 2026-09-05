@@ -1,0 +1,11 @@
+signal,target,spearman,n
+retrieval_confidence,exact_match,-0.03226568348078719,4000
+retrieval_confidence,f1,-0.004919412964178984,4000
+semantic_uncertainty,exact_match,-0.08655070346198786,4000
+semantic_uncertainty,f1,-0.21784962985799805,4000
+semantic_confidence,exact_match,0.08655016235020788,4000
+semantic_confidence,f1,0.2178489152441552,4000
+context_consistency,exact_match,-0.4403329701855468,4000
+context_consistency,f1,-0.24138675894648826,4000
+combined_score,exact_match,-0.1810566661059507,4000
+combined_score,f1,-0.07203962379500686,4000

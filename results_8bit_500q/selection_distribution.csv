@@ -1,0 +1,9 @@
+candidate_id,count,proportion
+bge_small_c512_k3,122,0.244
+bge_small_c256_k3,188,0.376
+bge_small_c256_k5,86,0.172
+bge_small_c512_k5,66,0.132
+minilm_c512_k3,9,0.018
+minilm_c256_k5,4,0.008
+minilm_c256_k3,22,0.044
+minilm_c512_k5,3,0.006

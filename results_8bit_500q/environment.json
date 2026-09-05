@@ -1,0 +1,19 @@
+{
+  "timestamp_utc": "2026-09-04T20:48:09.962950+00:00",
+  "python": "3.11.8",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "torch": "2.14.0+cu126",
+  "transformers": "4.46.3",
+  "datasets": "4.8.5",
+  "sentence_transformers": "5.7.0",
+  "faiss": "1.15.0",
+  "cuda_available": true,
+  "gpu": "NVIDIA GeForce RTX 3070 Ti Laptop GPU",
+  "seed": 42,
+  "generator_model_id": "microsoft/Phi-3-mini-4k-instruct",
+  "embedding_models": {
+    "minilm": "sentence-transformers/all-MiniLM-L6-v2",
+    "bge_small": "BAAI/bge-small-en-v1.5"
+  },
+  "nli_model_id": "cross-encoder/nli-deberta-v3-base"
+}
