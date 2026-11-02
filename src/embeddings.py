@@ -27,7 +27,10 @@ class SentenceEmbeddingRegistry:
             from sentence_transformers import SentenceTransformer
         except ImportError as exc:
             raise RuntimeError("Install sentence-transformers before loading embedding models") from exc
-        model = SentenceTransformer(model_id, device=self.device)
+        try:
+            model = SentenceTransformer(model_id, device=self.device, local_files_only=True)
+        except Exception:
+            model = SentenceTransformer(model_id, device=self.device)
         model.eval()
         self._models[key] = model
         self._model_ids[key] = model_id

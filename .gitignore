@@ -11,3 +11,8 @@ results/*.json
 results/plots/
 work/
 
+
+.venv/
+venv/
+.vscode/
+*.log

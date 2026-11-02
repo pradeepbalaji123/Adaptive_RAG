@@ -15,6 +15,8 @@ def create_research_plots(
     correlations: Sequence[dict[str, Any]],
     output_dir: str | Path,
 ) -> list[Path]:
+    import matplotlib
+    matplotlib.use("Agg")
     import matplotlib.pyplot as plt
     import seaborn as sns
 

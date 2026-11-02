@@ -81,7 +81,7 @@ def validate_notebook() -> int:
         ast.parse(source, filename=f"{path.name}:code-cell")
     hashes = notebook["metadata"]["reference_free_adaptive_rag"]["source_sha256"]
     for relative_path, expected in hashes.items():
-        actual = hashlib.sha256((ROOT / relative_path).read_bytes()).hexdigest()
+        actual = hashlib.sha256((ROOT / relative_path).read_text(encoding="utf-8").encode("utf-8")).hexdigest()
         assert actual == expected, f"Notebook bundle is stale for {relative_path}"
     return len(notebook["cells"])
 

@@ -46,7 +46,7 @@ class ExperimentConfig:
     uncertainty_samples: int = 3
     sample_temperature: float = 0.7
     sample_top_p: float = 0.9
-    max_new_tokens: int = 96
+    max_new_tokens: int = 256
     embedding_batch_size: int = 64
     nli_batch_size: int = 16
     checkpoint_every: int = 10

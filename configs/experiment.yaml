@@ -30,5 +30,5 @@ use_google_drive_cache: false
 cache_dir: cache
 results_dir: results
 device: auto
-nli_device: auto
+nli_device: cpu
 
